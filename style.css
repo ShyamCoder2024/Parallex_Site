@@ -20,13 +20,15 @@ perspective: 10px;
     z-index: -1;
 } 
 
+.foreground{
+    transform: translateZ(-20px) scale(3);
+}
+
+
 .background{
     transform: translateZ(-40px) scale(5);
 }
 
-.foreground{
-    transform: translateZ(-20px) scale(3);
-}
 
 .background, .foreground{
     position: absolute;
